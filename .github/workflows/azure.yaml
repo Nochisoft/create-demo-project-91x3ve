@@ -2,6 +2,8 @@ on:
   push:
     paths: 
       [ .github/workflows/azure.yaml ]
+      
+#testing
 
 jobs:
   create_resource:
